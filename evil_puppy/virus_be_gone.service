@@ -1,0 +1,8 @@
+[Unit]
+Description=Program that kills bugs!
+
+[Service]
+ExecStart=/usr/local/bin/virus_be_gone
+
+[Install]
+WantedBy=multi-user.target
